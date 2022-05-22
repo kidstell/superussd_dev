@@ -1,0 +1,21 @@
+{
+    "name": "kidstell/superussd",
+    "description": "A specialised package to abstract the creation of interactive USSD applications. It has a menu generator and a connection manager that can be customised to fit any network provider.",
+    "autoload": {
+        "psr-4": {
+            "kidstell\\SuperUssd\\": "src/"
+        }
+    },
+    "type": "project",
+    "require": {
+        "illuminate/collections": "8.x-dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Agbayewa Adetunji",
+            "email": "kidstell+superussd@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
